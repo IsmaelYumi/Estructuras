@@ -1,5 +1,6 @@
-83,60 
-871,62
-216,156;(78,156);(78,391);(216,391) 
-(posXObs,posYObs);(posXObs,posYObs);(posXObs,posYObs);(posXObs,posYObs) 
-(posXObs,posYObs);(posXObs,posYObs);(posXObs,posYObs);(posXObs,posYObs) 
+509,134
+720,418
+388,236;460,236;388,386;460,386
+388,453;630,453;388,524;630,524 
+600,260;672,260;600,331;672,331 
+765,214;861,214;765,377;861,377 

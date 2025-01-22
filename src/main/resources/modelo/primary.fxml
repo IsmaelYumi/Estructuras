@@ -4,8 +4,10 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PrimaryController">
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.PrimaryController">
    <children>
       <VBox layoutY="700.0" prefHeight="100.0" prefWidth="1200.0">
          <children>
@@ -17,5 +19,9 @@
             </HBox>
          </children>
       </VBox>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="71.0" layoutX="388.0" layoutY="453.0" stroke="BLACK" strokeType="INSIDE" width="242.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="163.0" layoutX="765.0" layoutY="214.0" stroke="BLACK" strokeType="INSIDE" width="96.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="71.0" layoutX="384.0" layoutY="104.0" stroke="BLACK" strokeType="INSIDE" width="72.0" x="216.0" y="156.0" />
+      <Circle centerX="871.0" centerY="60.0" fill="DODGERBLUE" layoutX="699.0" layoutY="398.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
    </children>
 </Pane>

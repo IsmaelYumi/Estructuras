@@ -3,7 +3,7 @@ package modelo;
 import java.util.LinkedList;
 
 public class Grafo<E> {
-private LinkedList<Vertice<E>> vertices;
+private LinkedList<Vertice<E>> vertices=new LinkedList<>();
 public LinkedList<Vertice<E>> getVertices() {
     return vertices;
 }
