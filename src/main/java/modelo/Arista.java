@@ -1,25 +1,30 @@
 package modelo;
 
-public class Arista <E>{
-    private Vertice<E> vertice;
-    private Vertice<E> verticeDestino;
+public class Arista {
+    private Vertice vertice;
+    private Vertice verticeDestino;
     private int peso;
 
-    public Arista(Vertice<E> vertice, int peso) {
+    public Arista(Vertice vertice, Vertice Vertice_destino, int peso) {
         this.vertice = vertice;
         this.peso = peso;
+        this.verticeDestino = Vertice_destino;
     }
 
-    public Vertice<E> getVertice() {
+    public Vertice getVertice() {
         return vertice;
     }
 
-    public void setVertice(Vertice<E> vertice) {
+    public void setVertice(Vertice vertice) {
         this.vertice = vertice;
     }
 
     public int getPeso() {
         return peso;
+    }
+
+    public Vertice getVerticeDestino() {
+        return verticeDestino;
     }
 
     public void setPeso(int peso) {
